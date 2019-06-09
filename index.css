@@ -1,0 +1,237 @@
+/*normalize css*/
+body{
+  margin:0;
+  font-family: sans-serif;
+}
+
+/*navbar*/
+nav{
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*logo container div positioning*/
+.logoContainer{
+  display: flex ;
+  margin-left:5%;
+  align-items: center;
+  color: rgb(96, 125, 139);
+  width: 20%;
+}
+/*logo caption positioning*/
+.logoContainer p {
+  margin-left: 8%;
+  font-size:2vw;
+}
+/*logo image sizing*/
+.logoContainer img{
+width: 75%;
+}
+
+/*navigatoin div*/
+.navigationContainer{
+  width:50%;
+  align-items: center;
+  color: rgb(96, 125, 139)
+}
+
+/*list item positioning*/
+.navigationContainer li{
+  display: inline;
+  margin: 2%;
+  font-size: 2vw;
+}
+
+.navigationContainer li:hover{
+  color:rgb(35, 145, 199);
+  cursor: pointer;
+}
+
+/*main image container div*/
+.imageContainer{
+  position: relative;
+  text-align: left;
+}
+/*main image width*/
+.mainImage{
+  width:100%
+}
+
+/*image caption div and styling*/
+.imageCaption{
+  position: absolute;
+  width:38%;
+  margin: 5%;
+  padding:1%;
+  top:5%;
+  left:5%;
+  background-color: rgba(0, 0, 0, 0.65);
+  color:white;
+  font-size: 2vw;
+  letter-spacing: .1em
+}
+
+/*column container div*/
+.columnContainer{
+  display: flex;
+  justify-content: space-between;
+  margin:5%;
+}
+
+/*styles individual columns*/
+.columnObject{
+  text-align: center;
+  width:30%;
+  font-size: 15px;
+  color: rgb(96, 125, 139)
+}
+/*column object image styling*/
+.columnObject img{
+  width: 60%;
+}
+
+/*footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 4% 2% 4%;
+  background-color: rgb(96, 125, 139);
+  align-items: center;
+
+}
+
+/*link container div*/
+.linkContainer{
+  font-size: 15px;
+  color:white;
+  margin-left: 5%;
+  display:flex;
+  flex-direction: column;
+}
+
+.linkContainer p:hover{
+  color: rgb(102, 217, 255);
+  cursor: pointer;
+}
+
+.linkContainer h3{
+  text-decoration: underline ;
+}
+
+/*form container div*/
+.formContainer{
+  margin-right: 5%;
+  width: 40%;
+  font-size: 20px;
+  color: white;
+}
+
+
+/*input textbox styling*/
+.Textbox{
+  height: 25px;
+  width:100%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+input{
+  font-size: 20px;
+}
+
+/*submit button styling*/
+.submitBtn{
+  float: right;
+  font-size: 20px;
+  width: 60%;
+  padding: 1%;
+  background-color: rgb(2, 120, 207);
+  color: white;
+}
+
+.submitBtn:hover{
+  background-color: rgb(102, 217, 255);
+  color: white;
+  cursor: pointer;
+}
+
+/*media query for mobile*/
+@media only screen and (max-width: 1000px) {
+
+/*logo caption sizing*/
+  .logoContainer p{
+    font-size: 30px;
+  }
+
+/*navagation li sizing*/
+  .navigationContainer li{
+    font-size: 25px;
+  }
+
+/*column container flex, vertical layout*/
+  .columnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin: 10% 0% 10% 0%;
+    width: 100%;
+    padding:  0;
+  }
+  .columnObject{
+    width: 80%;
+    font-size: 10px;
+  }
+
+/*footer style flex, vertical layout*/
+  footer{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+/*footer link container div*/
+  .linkContainer{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+  }
+
+/*form sizing*/
+  .formContainer{
+    width: 75%;
+    padding: 5%;
+      font-size: 35px;
+  }
+
+  .Textbox{
+    height: 35px;
+  }
+
+  input{
+    font-size: 30px;
+  }
+
+/*submit button sizing*/
+  .submitBtn{
+    font-size: 30px
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

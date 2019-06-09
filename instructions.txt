@@ -1,0 +1,22 @@
+Instructions:
+
+Using the included assets, please create a single responsive webpage that matches the supplied comp.
+Page must display correctly on a mobile phone and desktop Chrome.
+
+We use custom styling on all our websites and apps, so please don't use a css framework such as Bootstrap, etc.
+
+Using javascript, create the following interactions:
+- Header navigation item click should change the header background color for 2 seconds
+- Footer navigation item click should change the order of the footer nav items
+- Form submit should open a dialog box with the entered form data
+
+Any decisions not outlined above are up to you.
+
+Because emailing js files can be tricky, to return your finished site you can:
+- Upload your files to github and send the link, or
+- Change your .js extensions to .txt and email the files back in a .zip folder
+
+p.s.
+You don't need to copy the paragraph text exactly. Any filler text will do.
+
+Thanks!

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--imports css file-->
+    <link rel="stylesheet" href="index.css">
+    <title>ChapmanAuto</title>
+  </head>
+
+  <body>
+    <!--import javascript file-->
+    <script src="scripts.js"></script>
+
+    <!--Navigation-->
+    <nav id='nav'>
+      <!--logo container div-->
+      <div class="logoContainer">
+        <img src="./assets/Logo.png" alt="logo" class='logo' >
+        <p>CHAPMAN</p>
+      </div>
+      <!--navagation list container-->
+      <div class="navigationContainer">
+        <ul>
+          <li onclick="NavBackgroundColor()">HOME</li>
+          <li onclick="NavBackgroundColor()">SALES</li>
+          <li onclick="NavBackgroundColor()">BLOG</li>
+          <li onclick="NavBackgroundColor()">LOGIN</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--imgae container div-->
+    <div class="imageContainer">
+      <img src="./assets/hero.jpg" alt="MaroonBellsimage" class='mainImage'>
+      <div class="imageCaption">
+        <p>We are a company that does stuff. Car and web stuff.</p>
+      </div>
+    </div>
+
+    <!--column container div-->
+    <div class="columnContainer">
+      <!--column1-->
+      <div class="columnObject">
+        <img src="./assets/car1.jpg" alt="i8">
+        <h2>This is the BMW i8</h2>
+        <p>The BMW i8 Coupe, and first-ever BMW i8 roadster, are icons of progress.
+           These innovative plug-in hybrid vehicles represent the future of electric mobility –
+           while capturing the classic emotions of freedom and exhilaration you expect from a BMW.
+           With the electric motor and combustion engine providing a total output of 369hp and 420 lb-ft of torque,
+           the i8 Coupe and i8 Roadster more than live up to the sporting heritage of BMW – blowing through 0-60mph in as little as 4.2 seconds.
+        </p>
+      </div>
+      <!--column2-->
+      <div class="columnObject">
+        <img src="./assets/car2.jpg" alt="i3">
+          <h2>This is the BMW i3</h2>
+          <p>The compact, fully-electric BMW that transforms the everyday into the adventurous. The revolutionary passenger module of the BMW
+            i3 and i3s is made from Carbon Fiber Reinforced Plastic (CFRP) – an incredibly strong material. The lightweight construction
+            takes less energy to move, which means better maneuverability and better range.
+          </p>
+      </div>
+      <!--column3-->
+      <div class="columnObject">
+        <img src="./assets/car3.jpg" alt="5 series">
+        <h2>The BMW 5 series</h2>
+        <p>For more than forty years, the BMW 5 Series stood for uncompromising performance and dynamic driving. Now it takes its place as
+          one of the most interactive and innovative vehicles in the BMW lineup. Gorgeous design and luxurious comfort make the 5 Series more
+          than a statement piece – it’s a work of art.
+        </p>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <!--link container div-->
+      <div id='linkContainer' class="linkContainer">
+        <h3>Internal Links</h5>
+        <p onclick="Shuffle()">Page One</p>
+        <p onclick="Shuffle()">Another Page</p>
+        <p onclick="Shuffle()">Sales Page</p>
+        <p onclick="Shuffle()">Page Three</p>
+        <p onclick="Shuffle()">Keep Going</p>
+        <p onclick="Shuffle()">Last One</p>
+        <p onclick="Shuffle()">Just Kidding</p>
+      </div>
+      <!--form container div-->
+      <div class="formContainer">
+          Name:<br>
+          <input id='textboxName' class='Textbox' type="text"><br>
+          Address:<br>
+          <input id='textboxAddress' class='Textbox' type="text"><br>
+          City:<br>
+          <input id='textboxCity' class='Textbox' type="text"><br><br>
+          <button class='submitBtn' type="button" onclick="Submit()">Submit</button>
+      </div>
+    </footer>
+  </body>
+</html>
