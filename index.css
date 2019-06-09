@@ -166,7 +166,7 @@ input{
 
 /*navagation li sizing*/
   .navigationContainer li{
-    font-size: 25px;
+    font-size: 28px;
   }
 
 /*column container flex, vertical layout*/
@@ -188,6 +188,7 @@ input{
     display:flex;
     flex-direction: column-reverse;
     align-items: center;
+    padding: 5%;
   }
 
 /*footer link container div*/
@@ -205,7 +206,7 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    margin-left: 5%;
   }
 
   .Textbox{
@@ -220,7 +221,6 @@ input{
   .submitBtn{
     font-size: 30px;
     width:80%;
-
   }
 }
 
