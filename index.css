@@ -25,7 +25,7 @@ nav{
   font-size:2vw;
 }
 /*logo image sizing*/
-.logoContainer img{
+.logoContainer  img{
 width: 75%;
 }
 
@@ -201,7 +201,11 @@ input{
   .formContainer{
     width: 75%;
     padding: 5%;
-      font-size: 35px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
   }
 
   .Textbox{
@@ -214,7 +218,9 @@ input{
 
 /*submit button sizing*/
   .submitBtn{
-    font-size: 30px
+    font-size: 30px;
+    width:80%;
+
   }
 }
 
